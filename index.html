@@ -53,7 +53,7 @@
               <option value="2">Strongly Disagree</option>
             </select>
           </div>
-          <button type="button" name="button" data-toggle="modal" data-target="#myModal2">Next</button>
+          <button type="button" name="button" data-toggle="modal" data-target="#myModal2" data-dismiss="modal">Next</button>
           <div class="modal-footer">
           </div>
         </div>
@@ -80,7 +80,7 @@
               <option value="2">Strongly Disagree</option>
             </select>
           </div>
-          <button type="button" name="button" data-toggle="modal" data-target="#myModal3">Next</button>
+          <button type="button" name="button" data-toggle="modal" data-target="#myModal3" data-dismiss="modal">Next</button>
           <div class="modal-footer">
           </div>
         </div>
@@ -107,14 +107,20 @@
               <option value="2">Strongly Disagree</option>
             </select>
           </div>
-          <button type="button" name="button">Next</button>
+
           <div class="modal-footer">
-            <button id="surveySubmit" type="submit" class="btn btn-default">Submit</button>
+            <a data-dismiss="modal"></a>
+            <button id="surveySubmit" type="submit">Submit</button>
           </div>
         </div>
       </div>
     </div>
   </form>
+
+  <div id="result-dive">
+
+  </div>
+
 </body>
 </html>
 
@@ -123,15 +129,15 @@
 
 
 
-    <!-- <form class="dateForm">
+<!-- <form class="dateForm">
 
-    <h3>What is your Favorite Food?</h3>
-    <div id="foodGroup" class="">
-    <label for="iceCream">Ice Cream
-    <input type="radio" name="food" value="a">
-  </label>
-  <label for="iceCream">Ice Cream
-  <input type="radio" name="food" value="a">
+<h3>What is your Favorite Food?</h3>
+<div id="foodGroup" class="">
+<label for="iceCream">Ice Cream
+<input type="radio" name="food" value="a">
+</label>
+<label for="iceCream">Ice Cream
+<input type="radio" name="food" value="a">
 </label>
 </div>
 
